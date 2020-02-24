@@ -43,7 +43,7 @@ class Song
     file = file_name.split(" - ")
     @artist_name = file[0]
     @name = file[1].chomp ".mp3"
-    return self.song
+    return song
   end
     
     
